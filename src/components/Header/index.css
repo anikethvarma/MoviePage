@@ -54,3 +54,7 @@
   height: 32px;
   color: #ffffff;
 }
+
+.link {
+  text-decoration: none;
+}

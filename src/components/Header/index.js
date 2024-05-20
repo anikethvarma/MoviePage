@@ -7,13 +7,13 @@ const Header = () => {
       <h1 className="header-logo">MovieDb</h1>
       <div className="header-contents">
         <ul className="header-ul">
-          <Link to="/">
+          <Link to="/" className="link">
             <li className="header-li">Popular</li>
           </Link>
-          <Link to="/top-rated">
+          <Link to="/top-rated" className="link">
             <li className="header-li">Top Rated</li>
           </Link>
-          <Link to="/upcoming">
+          <Link to="/upcoming" className="link">
             <li className="header-li">Upcoming</li>
           </Link>
         </ul>
