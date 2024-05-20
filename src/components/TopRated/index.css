@@ -1,0 +1,35 @@
+.home-main {
+  background-color: #323f4b;
+}
+
+.home-ul {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 90vw;
+  margin: auto;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.home-li {
+  width: 180px;
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.li-image {
+  width: 100%;
+}
+
+.li-title {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.li-vote {
+  color: #ffffff;
+  font-size: 18px;
+}
