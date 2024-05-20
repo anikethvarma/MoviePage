@@ -81,6 +81,10 @@ class MovieDetails extends Component {
             <h1 className="movie-details-overview-head">Overview</h1>
             <p className="movie-details-overview">{overview}</p>
           </div>
+          <img
+            src={`https://image.tmdb.org/t/p/w500${backdropPath}`}
+            className="backdrop-image"
+          />
         </div>
         <div className="cast-details">
           <h1 className="cast-main-heading">Cast</h1>

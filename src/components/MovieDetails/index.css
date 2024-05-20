@@ -5,6 +5,9 @@
   width: 90vw;
   margin: auto;
   margin-top: 20px;
+  background-color: #000000;
+  display: flex;
+  border-radius: 10px;
 }
 
 .movie-details-main-contents {
@@ -17,7 +20,17 @@
   background-color: #000000;
   border-radius: 10px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 20px;
+}
+.backdrop-image {
+  display: none;
+}
+@media (min-width: 768px) {
+  .backdrop-image {
+    display: block;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
 }
 
 .movie-details-poster {
@@ -31,12 +44,12 @@
 
 .movie-details-title {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 5px;
 }
 
 .movie-details-rating {
-  color: #323f4b;
+  color: grey;
   font-size: 16px;
   margin-bottom: 10px;
 }
@@ -62,6 +75,7 @@
   color: #ffffff;
   font-size: 16px;
   margin-bottom: 10px;
+  line-height: 24px;
 }
 
 .cast-details {
