@@ -38,23 +38,6 @@
   padding-left: 10px;
 }
 
-.input-div {
-  padding-left: 10px;
-  display: flex;
-}
-
-.input {
-  width: 100%;
-  background-color: transparent;
-  border: solid 1px #ffffff;
-  height: 24px;
-  border-radius: 2px;
-  padding: 5px;
-  font-size: 12px;
-  height: 32px;
-  color: #ffffff;
-}
-
 .link {
   text-decoration: none;
 }

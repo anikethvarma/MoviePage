@@ -17,9 +17,6 @@ const Header = () => {
             <li className="header-li">Upcoming</li>
           </Link>
         </ul>
-        <div className="input-div">
-          <input type="Search" className="input" placeholder="Search Movie" />
-        </div>
       </div>
     </div>
   );

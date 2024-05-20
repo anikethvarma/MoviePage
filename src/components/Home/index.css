@@ -21,6 +21,7 @@
 
 .li-image {
   width: 100%;
+  border-radius: 10px;
 }
 
 .li-title {
@@ -36,4 +37,31 @@
 
 .link {
   text-decoration: none;
+}
+
+.home-input-div {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+}
+.home-input {
+  width: 90%;
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  height: 24px;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 12px;
+  height: 32px;
+  color: #ffffff;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+.submit-button {
+  background-color: #30362f;
+  height: 32px;
+  border: solid 1px #ffffff;
+  color: #ffffff;
 }
